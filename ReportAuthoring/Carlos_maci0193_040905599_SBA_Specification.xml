@@ -1,0 +1,431 @@
+<report xmlns="http://developer.cognos.com/schemas/report/13.1/"           useStyleVersion="11" expressionLocale="en-us">
+				
+				<drillBehavior/>
+				<layouts>
+					<layout>
+						<reportPages>
+							<page name="Page1">
+								<style>
+									<defaultStyles>
+										<defaultStyle refStyle="pg"/>
+									</defaultStyles>
+								</style>
+								<pageBody>
+									<style>
+										<defaultStyles>
+											<defaultStyle refStyle="pb"/>
+										</defaultStyles>
+									</style>
+									<contents><block>
+			<contents><textItem><dataSource><staticValue>ABC Crosstab (040905599)</staticValue></dataSource><style><CSS value="color:blue"/></style></textItem></contents>
+		<style><CSS value="font-size:12pt;color:white;background-color:lime"/></style></block><crosstab horizontalPagination="true" refQuery="Query1" name="Crosstab1">
+			<crosstabCorner>
+				<contents><textItem><dataSource><dataItemLabel refDataItem="Gross profit"/></dataSource></textItem></contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="xm"/>
+					</defaultStyles>
+				</style>
+			</crosstabCorner>
+			
+			
+			
+			<style>
+				<CSS value="border-collapse:collapse"/>
+				<defaultStyles>
+					<defaultStyle refStyle="xt"/>
+				</defaultStyles>
+			</style>
+		<noDataHandler>
+				<contents>
+					<block>
+						<contents>
+							<textItem>
+								<dataSource>
+									<staticValue>No Data Available</staticValue>
+								</dataSource>
+								<style>
+									<CSS value="padding:10px 18px;"/>
+								</style>
+							</textItem>
+						</contents>
+					</block>
+				</contents>
+			</noDataHandler><crosstabColumns><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Retailer type" edgeLocation="e1"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Retailer type"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabColumns><crosstabRows><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNestedNodes><crosstabNode><crosstabNodeMembers><crosstabNodeMember refDataItem="Month" edgeLocation="e3"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Month"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Quarter" edgeLocation="e5"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents><sortList><sortItem refDataItem="Quarter"/></sortList></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabNestedNodes><crosstabNodeMembers><crosstabNodeMember refDataItem="Year" edgeLocation="e7"><style><defaultStyles><defaultStyle refStyle="ml"/></defaultStyles></style><contents><textItem><dataSource><memberCaption/></dataSource></textItem></contents></crosstabNodeMember></crosstabNodeMembers></crosstabNode></crosstabRows><defaultMeasure refDataItem="Gross profit"/><crosstabFactCell><contents><textItem><dataSource><cellValue/></dataSource></textItem></contents><style><defaultStyles><defaultStyle refStyle="mv"/></defaultStyles></style></crosstabFactCell></crosstab></contents>
+								</pageBody>
+							<pageHeader><contents><block>
+			<contents><table><style><defaultStyles><defaultStyle refStyle="tb"/></defaultStyles><CSS value="border-collapse:collapse;width:100%"/></style><tableRows><tableRow><tableCells><tableCell><contents><textItem><dataSource><staticValue>Timoteo, Carlos</staticValue></dataSource><style><CSS value="font-size:16pt;font-weight:bold;font-style:italic;font-family:Arial"/></style></textItem></contents><style><CSS value="text-align:left;width:25%"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>CST 2204 SBA Final Report</staticValue></dataSource><style><CSS value="font-size:26pt;font-weight:bold;font-family:Arial"/></style></textItem></contents><style><CSS value="text-align:center;width:60%"/></style></tableCell><tableCell><contents><textItem><dataSource><staticValue>1</staticValue></dataSource><style><CSS value="background-color:yellow;font-size:20pt;font-family:Arial"/></style></textItem></contents><style><CSS value="text-align:right;background-color:yellow;font-family:Arial;font-size:20pt"/></style></tableCell></tableCells></tableRow></tableRows></table></contents>
+		<style><CSS value="margin-bottom:10px"/></style></block><block>
+			<contents><textItem><dataSource><staticValue>XYZ Bar Chart (040905599)</staticValue></dataSource><style><CSS value="font-family:&apos;Arial Black&apos;;font-size:14pt;color:blue"/></style></textItem></contents>
+		<style><CSS value="background-color:lime"/></style></block><v2_combinationChart maxHotspots="10000" orientation="horizontal" depth="75" name="Combination chart1" refQuery="Query2">
+				
+				
+				
+				
+				<v2_combinationTypeTooltips/>
+				<v2_legend>
+					<v2_legendPosition>
+						<v2_legendPreset/>
+					</v2_legendPosition>
+					<v2_legendTitle refQuery="Query2">
+						<v2_chartTextContents>
+							<v2_automaticText/>
+						</v2_chartTextContents>
+						<style>
+							<defaultStyles>
+								<defaultStyle refStyle="lx"/>
+							</defaultStyles>
+						</style>
+					</v2_legendTitle>
+					<style>
+						<defaultStyles>
+							<defaultStyle refStyle="lg"/>
+						</defaultStyles>
+					</style>
+				</v2_legend>
+				<v2_commonAxis>
+					<v2_ordinalAxis>
+						<v2_axisTitle refQuery="Query2">
+							<v2_chartTextContents>
+								
+							<v2_chartTextItems><v2_chartTextItem><dataSource><staticValue>Retailer Type (040905599 maci0193)</staticValue></dataSource></v2_chartTextItem></v2_chartTextItems></v2_chartTextContents>
+							<style>
+								<defaultStyles>
+									<defaultStyle refStyle="at"/>
+								</defaultStyles>
+							</style>
+						</v2_axisTitle>
+						<v2_axisLine lineWeight="0"/>
+						<v2_axisLabels>
+							<style>
+								<defaultStyles>
+									<defaultStyle refStyle="al"/>
+								</defaultStyles>
+							</style>
+						</v2_axisLabels>
+					</v2_ordinalAxis>
+				<chartNodes><chartNode><chartNodeMembers><chartNodeMember refDataItem="Year"><chartContents><chartTextItem><dataSource><memberCaption/></dataSource></chartTextItem></chartContents></chartNodeMember></chartNodeMembers><chartNestedNodes><chartNode><chartNodeMembers><chartNodeMember refDataItem="Quarter (numeric)"><chartContents><chartTextItem><dataSource><memberCaption/></dataSource></chartTextItem></chartContents></chartNodeMember></chartNodeMembers></chartNode></chartNestedNodes></chartNode></chartNodes></v2_commonAxis>
+				<v2_topLeftAxis>
+					<v2_combinationChartTypes>
+						<v2_bar borders="show" barShape="box">
+							<v2_solidPalette>
+								<v2_solidPaletteEntries>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#8599D3">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#8599D3"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#5876AE"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#E3AE6C">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#E3AE6C"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#CD854E"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#839862">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#839862"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#6C7F56"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#B7C873">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#B7C873"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#AFB885"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#8484A8">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#8484A8"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#525E7E"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#C0CCED">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#C0CCED"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#B0C2E5"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#8C5580">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#8C5580"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#794067"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#C789BC">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#C789BC"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#BB72BC"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#D5BAEF">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#D5BAEF"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#C29FD1"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#83683F">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#83683F"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#604926"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#DCB05A">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#DCB05A"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#C09C52"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#F4DF9E">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#F4DF9E"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#E4CF87"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#5F8A8C">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#5F8A8C"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#537579"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#96C4B2">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#96C4B2"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#89B0A0"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#CBE8E7">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#CBE8E7"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#BDD6D5"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#AE6564">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#AE6564"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#875352"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#D88C6F">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#D88C6F"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#C47D61"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#E3C9B0">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#E3C9B0"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#D2B2A5"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#848484">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#848484"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#555555"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#a4a4a4">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#a4a4a4"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#909090"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+									<v2_solidPaletteEntry>
+										<v2_fillEffect defaultColor="#C7C7C7">
+											<v2_linearGradient>
+												<v2_gradientColor gradientColor="#C7C7C7"/>
+												<v2_gradientColor colorPosition="100" gradientColor="#c1c1c1"/>
+											</v2_linearGradient>
+										</v2_fillEffect>
+									</v2_solidPaletteEntry>
+								</v2_solidPaletteEntries>
+							</v2_solidPalette>
+							
+						<chartNodes><chartNode><chartNodeMembers><chartNodeMember refDataItem="Retailer type"><chartContents><chartTextItem><dataSource><memberCaption/></dataSource></chartTextItem></chartContents></chartNodeMember></chartNodeMembers></chartNode></chartNodes></v2_bar>
+					</v2_combinationChartTypes>
+					<v2_axis>
+						<v2_axisTitle refQuery="Query2">
+							<v2_chartTextContents>
+								
+							<v2_chartTextItems><v2_chartTextItem><dataSource><staticValue>By Year and Quarter (040905599 maci0193)</staticValue></dataSource></v2_chartTextItem></v2_chartTextItems></v2_chartTextContents>
+							<style>
+								<defaultStyles>
+									<defaultStyle refStyle="at"/>
+								</defaultStyles>
+							</style>
+						</v2_axisTitle>
+						<v2_axisLine lineWeight="0"/>
+						<v2_axisRange>
+							<v2_automaticRange/>
+						</v2_axisRange>
+						<v2_axisLabels>
+							<style>
+								<defaultStyles>
+									<defaultStyle refStyle="al"/>
+								</defaultStyles>
+							</style>
+						</v2_axisLabels>
+						<v2_majorGridlines lineWeight="0" lineColor="#CCCCCC"/>
+					</v2_axis>
+				</v2_topLeftAxis>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="ch"/>
+					</defaultStyles>
+				</style>
+				<noDataHandler>
+					<contents>
+						<block>
+							<contents>
+								<textItem>
+									<dataSource>
+										<staticValue>No Data Available</staticValue>
+									</dataSource>
+									<style>
+										<CSS value="padding:10px 18px;"/>
+									</style>
+								</textItem>
+							</contents>
+						</block>
+					</contents>
+				</noDataHandler>
+			<v2_defaultChartMeasure refDataItem="Revenue"/><XMLAttributes><XMLAttribute output="no" name="titlesExpanded" value="true"/></XMLAttributes></v2_combinationChart></contents></pageHeader><pageFooter><contents><table><style><defaultStyles><defaultStyle refStyle="tb"/></defaultStyles><CSS value="border-collapse:collapse;width:100%"/></style><tableRows><tableRow><tableCells><tableCell><contents><textItem><dataSource><staticValue>040905599 maci0193</staticValue></dataSource></textItem></contents></tableCell><tableCell><contents><time>
+			<style>
+				<dataFormat>
+					<timeFormat/>
+				</dataFormat>
+			</style>
+		</time></contents></tableCell><tableCell><contents><date>
+			<style>
+				<dataFormat>
+					<dateFormat/>
+				</dataFormat>
+			</style>
+		</date></contents></tableCell></tableCells></tableRow></tableRows></table></contents></pageFooter></page>
+						</reportPages>
+					<promptPages><page name="Prompt page1">
+			<pageHeader>
+				<contents>
+					<block>
+						<contents>
+							<textItem>
+								<dataSource>
+									<staticValue>Select the parameters</staticValue>
+								</dataSource>
+								<style>
+									<defaultStyles>
+										<defaultStyle refStyle="tt"/>
+									</defaultStyles>
+								</style>
+							</textItem>
+						</contents>
+						<style>
+							<defaultStyles>
+								<defaultStyle refStyle="ta"/>
+							</defaultStyles>
+						</style>
+					</block>
+				</contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="hp"/>
+					</defaultStyles>
+				</style>
+			</pageHeader>
+			<pageBody>
+				<contents><block><contents><textItem><dataSource><staticValue>Year</staticValue></dataSource></textItem></contents></block><block><contents><selectValue parameter="Year" selectValueUI="listBox" multiSelect="true" refQuery="Year"><useItem refDataItem="useValue"><displayItem refDataItem="displayValue"/></useItem></selectValue></contents><style><CSS value="margin-bottom:12px"/></style></block><block><contents><textItem><dataSource><staticValue>Retailer type</staticValue></dataSource></textItem></contents></block><block><contents><selectValue parameter="Retailer type" multiSelect="true" refQuery="Retailer type" selectValueUI="listBox"><XMLAttributes><XMLAttribute name="dataType" value="xsdString"/></XMLAttributes><useItem refDataItem="useValue"><displayItem refDataItem="displayValue"/></useItem><sortList><sortItem refDataItem="displayValue"/></sortList></selectValue></contents><style><CSS value="margin-bottom:12px"/></style></block></contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="py"/>
+					</defaultStyles>
+				</style>
+			</pageBody>
+			<pageFooter>
+				<contents>
+					<promptButton type="cancel">
+						<contents/>
+						<style>
+							<defaultStyles>
+								<defaultStyle refStyle="bp"/>
+							</defaultStyles>
+						</style>
+					</promptButton>
+					<promptButton type="back">
+						<contents/>
+						<style>
+							<defaultStyles>
+								<defaultStyle refStyle="bp"/>
+							</defaultStyles>
+						</style>
+					</promptButton>
+					<promptButton type="next">
+						<contents/>
+						<style>
+							<defaultStyles>
+								<defaultStyle refStyle="bp"/>
+							</defaultStyles>
+						</style>
+					</promptButton>
+					<promptButton type="finish">
+						<contents/>
+						<style>
+							<defaultStyles>
+								<defaultStyle refStyle="bp"/>
+							</defaultStyles>
+						</style>
+					</promptButton>
+				</contents>
+				<style>
+					<defaultStyles>
+						<defaultStyle refStyle="fp"/>
+					</defaultStyles>
+				</style>
+			</pageFooter>
+			<style>
+				<defaultStyles>
+					<defaultStyle refStyle="pp"/>
+				</defaultStyles>
+			</style>
+		</page></promptPages></layout>
+				</layouts>
+			<XMLAttributes><XMLAttribute name="RS_CreateExtendedDataItems" output="no" value="true"/><XMLAttribute output="no" name="listSeparator" value=","/><XMLAttribute output="no" name="RS_modelModificationTime" value="2015-11-25T21:41:18.540Z"/></XMLAttributes><modelPath>/content/folder[@name=&apos;Samples&apos;]/folder[@name=&apos;Models&apos;]/package[@name=&apos;GO data warehouse (query)&apos;]/model[@name=&apos;model&apos;]</modelPath><queries><query name="Query1"><source><model/></source><selection><dataItem aggregate="total" name="Gross profit"><expression>[Sales (query)].[Sales fact].[Gross profit]</expression><XMLAttributes><XMLAttribute output="no" name="RS_dataType" value="2"/><XMLAttribute output="no" name="RS_dataUsage" value="2"/></XMLAttributes></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Retailer type"><expression>[Sales (query)].[Retailers].[Retailer type]</expression><XMLAttributes><XMLAttribute output="no" name="RS_dataType" value="3"/><XMLAttribute output="no" name="RS_dataUsage" value="0"/></XMLAttributes></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Year"><expression>[Sales (query)].[Time].[Year]</expression><XMLAttributes><XMLAttribute output="no" name="RS_dataType" value="1"/><XMLAttribute output="no" name="RS_dataUsage" value="0"/></XMLAttributes></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Quarter"><expression>[Sales (query)].[Time].[Quarter]</expression><XMLAttributes><XMLAttribute output="no" name="RS_dataType" value="3"/><XMLAttribute output="no" name="RS_dataUsage" value="0"/></XMLAttributes></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Month"><expression>[Sales (query)].[Time].[Month]</expression><XMLAttributes><XMLAttribute output="no" name="RS_dataType" value="3"/><XMLAttribute output="no" name="RS_dataUsage" value="0"/></XMLAttributes></dataItem></selection><detailFilters><detailFilter><filterExpression>[Sales (query)].[Time].[Year] in_range ?Year?</filterExpression></detailFilter><detailFilter><filterExpression>[Sales (query)].[Retailers].[Retailer type] in ?Retailer type?</filterExpression></detailFilter></detailFilters></query><query name="Query2"><source><model/></source><selection><dataItem aggregate="none" rollupAggregate="none" name="Retailer type"><expression>[Sales (query)].[Retailers].[Retailer type]</expression><XMLAttributes><XMLAttribute output="no" name="RS_dataType" value="3"/><XMLAttribute output="no" name="RS_dataUsage" value="attribute"/></XMLAttributes></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Year"><expression>[Sales (query)].[Time].[Year]</expression><XMLAttributes><XMLAttribute output="no" name="RS_dataType" value="1"/><XMLAttribute output="no" name="RS_dataUsage" value="attribute"/></XMLAttributes></dataItem><dataItem aggregate="none" rollupAggregate="none" name="Quarter (numeric)"><expression>[Sales (query)].[Time].[Quarter (numeric)]</expression><XMLAttributes><XMLAttribute output="no" name="RS_dataType" value="1"/><XMLAttribute output="no" name="RS_dataUsage" value="attribute"/></XMLAttributes></dataItem><dataItem aggregate="total" name="Revenue"><expression>[Sales (query)].[Sales fact].[Revenue]</expression><XMLAttributes><XMLAttribute output="no" name="RS_dataType" value="2"/><XMLAttribute output="no" name="RS_dataUsage" value="fact"/></XMLAttributes></dataItem></selection><detailFilters><detailFilter><filterExpression>[Sales (query)].[Time].[Year] in_range ?Year?</filterExpression></detailFilter><detailFilter><filterExpression>[Sales (query)].[Retailers].[Retailer type] in ?Retailer type?</filterExpression></detailFilter></detailFilters></query><query name="Retailer type"><source><model/></source><selection><dataItem name="useValue" aggregate="none"><expression>[Sales (query)].[Retailers].[Retailer type]</expression></dataItem><dataItem name="displayValue" sort="ascending" aggregate="none"><expression>[Sales (query)].[Retailers].[Retailer type]</expression></dataItem></selection></query><query name="Year"><source><model/></source><selection><dataItem name="useValue" aggregate="none"><expression>[Sales (query)].[Time].[Year]</expression></dataItem><dataItem name="displayValue" sort="ascending" aggregate="none"><expression>[Sales (query)].[Time].[Year]</expression></dataItem></selection></query></queries><reportName>SBAv2</reportName></report>

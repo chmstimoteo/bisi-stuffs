@@ -1,0 +1,30 @@
+# Get Dispatcher version
+http://127.0.0.1:9300/p2pd/servlet/gc
+
+# Determine if Content Manager is running
+http://127.0.0.1:9300/p2pd/servlet
+
+# Determine if Dispatcher ("pogo") is alive
+http://127.0.0.1:9300/p2pd/servlet/dispatch?b_action=/dbg
+
+# Memory utilization
+http://127.0.0.1:9300/p2pd/servlet/dispatch?b_action=/diagnostics
+
+# Get load balancing statistics. Can also use this to verify the configuration of an install.
+http://127.0.0.1:9300/p2pd/servlet/dispatch/p2plbDiag
+
+# Pin requests for load balanced services to a specific Dispatcher (need to be logged in first)
+http://127.0.0.1:9300/p2pd/servlet/dispatch/pin
+
+# See if the Certificate Server is responding
+http://127.0.0.1:9300/p2pd/servlet/dispatch/autoCAService
+
+# NOT SURE WHAT THIS ONE DOES.....
+http://127.0.0.1:9300/p2pd/servlet/dispatch/testping
+
+# XML Parser Information
+http://127.0.0.1:9300/p2pd/servlet/dispatch/xts.diag
+
+
+
+

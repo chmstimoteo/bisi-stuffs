@@ -1,0 +1,392 @@
+This dispatcher is: bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+GUID=CD5521F3-B2BA-49C6-AD74-77CE434AB63C
+Using CM: bisiholic-cm1.bisi:9300/p2pd/servlet
+Current time: 2-Apr-2018 6:00:16 o'clock PM EDT
+Configured dispatchers and services:
+this dispatcher is : "/configuration/dispatcher[@name='http://bisiholic-fd2.bisi:9300/p2pd']"
+this dispatcher is in serverGroup : ""
+
+All known dispatchers:
+	Dispatcher: /configuration/dispatcher[@name='http://bisiholic-cm2.bisi:9300/p2pd']
+		name: bisiholic-cm2.bisi:9300/p2pd
+		dispatcherID: E6FED0F3-A874-4BB7-8907-218303EBCE8B
+		capacity: 1.0
+		SSL: false
+		serverGroup: 
+		loadBalancingMode: weightedRoundRobin
+		edition: 10.2.6108.3
+		Services:
+			Service name: camAsyncAA disabled? false
+			Service name: logService disabled? false
+			Service name: dispatcher disabled? false
+			Service name: contentManagerCacheService disabled? false
+			Service name: systemService disabled? false
+			Service name: graphicsService disabled? false
+			Service name: dispatcherCacheService disabled? false
+			Service name: eventManagementService disabled? false
+			Service name: SACamSrvc disabled? false
+			Service name: jobService disabled? false
+			Service name: deliveryService disabled? false
+			Service name: contentManagerService disabled? false
+			Service name: monitorService disabled? false
+	Dispatcher: /configuration/dispatcher[@name='http://bisiholic-fd1.bisi:9300/p2pd']
+		name: bisiholic-fd1.bisi:9300/p2pd
+		dispatcherID: 4E4AB9C9-C8C1-4D84-B26C-B55FDF525C20
+		capacity: 1.0
+		SSL: false
+		serverGroup: 
+		loadBalancingMode: weightedRoundRobin
+		edition: 10.2.6108.3
+		Services:
+			Service name: repositoryService disabled? false
+			Service name: dispatcher disabled? false
+			Service name: contentManagerCacheService disabled? false
+			Service name: reportDataService disabled? false
+			Service name: dispatcherCacheService disabled? false
+			Service name: eventManagementService disabled? false
+			Service name: dimensionManagementService disabled? false
+			Service name: humanTaskService disabled? false
+			Service name: idVizService disabled? false
+			Service name: deliveryService disabled? false
+			Service name: monitorService disabled? false
+			Service name: mobileService disabled? true
+			Service name: buxService disabled? false
+			Service name: metadataService disabled? false
+			Service name: annotationService disabled? false
+			Service name: jobService disabled? false
+			Service name: indexDataService disabled? false
+			Service name: relationalMetadataService disabled? false
+			Service name: graphicsService disabled? false
+			Service name: presentationService disabled? false
+			Service name: vgs disabled? false
+			Service name: indexUpdateService disabled? false
+			Service name: indexSearchService disabled? false
+			Service name: logService disabled? false
+			Service name: systemService disabled? false
+			Service name: agentService disabled? false
+	Dispatcher: /configuration/dispatcher[@name='http://bisiholic-app1.bisi:9300/p2pd']
+		name: bisiholic-app1.bisi:9300/p2pd
+		dispatcherID: 3BC96C21-5A0F-47E0-8529-5CC540DC7996
+		capacity: 1.0
+		SSL: false
+		serverGroup: 
+		loadBalancingMode: weightedRoundRobin
+		edition: 10.2.6108.3
+		Services:
+			Service name: repositoryService disabled? false
+			Service name: dispatcher disabled? false
+			Service name: contentManagerCacheService disabled? false
+			Service name: reportDataService disabled? false
+			Service name: dispatcherCacheService disabled? false
+			Service name: eventManagementService disabled? false
+			Service name: humanTaskService disabled? false
+			Service name: dimensionManagementService disabled? false
+			Service name: deliveryService disabled? false
+			Service name: idVizService disabled? false
+			Service name: monitorService disabled? false
+			Service name: mobileService disabled? true
+			Service name: metadataService disabled? false
+			Service name: annotationService disabled? false
+			Service name: jobService disabled? false
+			Service name: indexDataService disabled? false
+			Service name: relationalMetadataService disabled? false
+			Service name: graphicsService disabled? false
+			Service name: batchReportService disabled? false
+			Service name: reportService disabled? false
+			Service name: vgs disabled? false
+			Service name: indexUpdateService disabled? false
+			Service name: indexSearchService disabled? false
+			Service name: logService disabled? false
+			Service name: systemService disabled? false
+			Service name: agentService disabled? false
+	Dispatcher: /configuration/dispatcher[@name='http://bisiholic-app2.bisi:9300/p2pd']
+		name: bisiholic-app2.bisi:9300/p2pd
+		dispatcherID: 77542076-870D-4DDD-A021-91FFC436B7F1
+		capacity: 1.0
+		SSL: false
+		serverGroup: 
+		loadBalancingMode: weightedRoundRobin
+		edition: 10.2.6108.3
+		Services:
+			Service name: repositoryService disabled? false
+			Service name: dispatcher disabled? false
+			Service name: contentManagerCacheService disabled? false
+			Service name: reportDataService disabled? false
+			Service name: dispatcherCacheService disabled? false
+			Service name: eventManagementService disabled? false
+			Service name: humanTaskService disabled? false
+			Service name: dimensionManagementService disabled? false
+			Service name: deliveryService disabled? false
+			Service name: idVizService disabled? false
+			Service name: monitorService disabled? false
+			Service name: mobileService disabled? true
+			Service name: metadataService disabled? false
+			Service name: annotationService disabled? false
+			Service name: jobService disabled? false
+			Service name: indexDataService disabled? false
+			Service name: relationalMetadataService disabled? false
+			Service name: graphicsService disabled? false
+			Service name: batchReportService disabled? false
+			Service name: reportService disabled? false
+			Service name: vgs disabled? false
+			Service name: indexUpdateService disabled? false
+			Service name: indexSearchService disabled? false
+			Service name: logService disabled? false
+			Service name: systemService disabled? false
+			Service name: agentService disabled? false
+	Dispatcher: /configuration/dispatcher[@name='http://bisiholic-fd2.bisi:9300/p2pd']
+		name: bisiholic-fd2.bisi:9300/p2pd
+		dispatcherID: CD5521F3-B2BA-49C6-AD74-77CE434AB63C
+		capacity: 1.0
+		SSL: false
+		serverGroup: 
+		loadBalancingMode: weightedRoundRobin
+		edition: 10.2.6108.3
+		Services:
+			Service name: repositoryService disabled? false
+			Service name: dispatcher disabled? false
+			Service name: contentManagerCacheService disabled? false
+			Service name: reportDataService disabled? false
+			Service name: dispatcherCacheService disabled? false
+			Service name: eventManagementService disabled? false
+			Service name: humanTaskService disabled? false
+			Service name: dimensionManagementService disabled? false
+			Service name: deliveryService disabled? false
+			Service name: idVizService disabled? false
+			Service name: monitorService disabled? false
+			Service name: mobileService disabled? true
+			Service name: buxService disabled? false
+			Service name: metadataService disabled? false
+			Service name: annotationService disabled? false
+			Service name: jobService disabled? false
+			Service name: indexDataService disabled? false
+			Service name: relationalMetadataService disabled? false
+			Service name: graphicsService disabled? false
+			Service name: presentationService disabled? false
+			Service name: vgs disabled? false
+			Service name: indexUpdateService disabled? false
+			Service name: indexSearchService disabled? false
+			Service name: logService disabled? false
+			Service name: systemService disabled? false
+			Service name: agentService disabled? false
+	Dispatcher: /configuration/dispatcher[@name='http://bisiholic-cm1.bisi:9300/p2pd']
+		name: bisiholic-cm1.bisi:9300/p2pd
+		dispatcherID: C91772A0-F682-4307-A55D-AA2706C5FDF2
+		capacity: 1.0
+		SSL: false
+		serverGroup: 
+		loadBalancingMode: weightedRoundRobin
+		edition: 10.2.6108.3
+		Services:
+			Service name: camAsyncAA disabled? false
+			Service name: logService disabled? false
+			Service name: dispatcher disabled? false
+			Service name: contentManagerCacheService disabled? false
+			Service name: systemService disabled? false
+			Service name: graphicsService disabled? false
+			Service name: dispatcherCacheService disabled? false
+			Service name: eventManagementService disabled? false
+			Service name: SACamSrvc disabled? false
+			Service name: jobService disabled? false
+			Service name: deliveryService disabled? false
+			Service name: contentManagerService disabled? false
+			Service name: monitorService disabled? false
+
+Perceived state of the cluster:
+
+Server group: (default)
+
+bisiholic-app1.bisi:9300/p2pd/servlet/dispatch is up
+bisiholic-app2.bisi:9300/p2pd/servlet/dispatch is up
+bisiholic-cm1.bisi:9300/p2pd/servlet/dispatch is up
+bisiholic-cm2.bisi:9300/p2pd/servlet/dispatch is up
+bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch is up
+bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch is up
+
+Load balancer statistics: 
+
+contentManagerCacheService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+contentManagerService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm1.bisi:9300/p2pd/servlet/dispatch
+
+presentationService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+indexUpdateService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+metadataService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+reportDataService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+vgs
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+dispatcher
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+monitorService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+buxService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+agentService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+SACamSrvc
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm1.bisi:9300/p2pd/servlet/dispatch
+
+logService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+jobService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+deliveryService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+graphicsService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+reportService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+
+relationalMetadataService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+batchReportService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+
+dimensionManagementService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+indexDataService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+camAsyncAA
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm1.bisi:9300/p2pd/servlet/dispatch
+
+idVizService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+indexSearchService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+dispatcherCacheService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+annotationService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+humanTaskService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+eventManagementService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+systemService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-cm1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
+
+repositoryService
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app1.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-app2.bisi:9300/p2pd/servlet/dispatch
+Times used out of the last 20 requests : 0	Total times used since last cluster change: 0	bisiholic-fd1.bisi:9300/p2pd/servlet/dispatch
